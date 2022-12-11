@@ -170,6 +170,12 @@ section{
   border-radius: 0.5rem;
 }
 
+.box:hover{
+  transform: scale(1.1) translateY(10px);
+  transition: .4s;
+  cursor: pointer;
+}
+
 .box-img{
   width: 220px;
   height: 220px;
@@ -399,5 +405,5 @@ section{
     .col{
       width: 100%;
     }
-    
+
     }
